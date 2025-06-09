@@ -1,40 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Final Challenge J.R</title>
-    <link rel="stylesheet" href="../styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
     <header>
-        <div class="text-logo">
-            <img src="../img/logo.png" alt="">
+      <div class="text-logo">
+        <img src="../img/logo.png" alt="" />
 
-            <div class="text-hd">
-                <h2>Joel Restrepo</h2>
-                <h4>Web Designer & Developer</h4>
-            </div>
+        <div class="text-hd">
+          <h2>Joel Restrepo</h2>
+          <h4>Web Designer & Developer</h4>
         </div>
-    
-    
-        <nav>
-            <ul>
-                <li ><a href="../index.html">Home</a></li>
-                <li class="foc"><a href="#">Projects</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      </div>
+
+      <nav>
+        <div id="menu" class="menu">
+          <div class="rows"></div>
+          <div class="rows"></div>
+          <div class="rows"></div>
+        </div>
+
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li class="foc"><a href="#">Projects</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
+    <ul class="responsive-list">
+      <li><a href="../index.html">Home</a></li>
+      <li class="foc"><a href="#">Projects</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+    <main class="main-projects">
 
-    <main>
-        
+        <section class="proyectos">
+            <h2>Mis Proyectos</h2>
+            <div class="grid-proyectos">
+
+              <div class="proyecto">
+                <img src="../img/proyects/pro1.png" alt="" class="img-proyect">
+                <p>Reproductor de musica</p>
+              </div>
+
+              <div class="proyecto">
+                <img src="../img/proyects/pro2.png" alt="" class="img-proyect">
+                <p>Clon de WhatsApp</p>
+              </div>
+
+              <div class="proyecto">
+                <img src="../img/proyects/pro3.png" alt="" class="img-proyect">
+                <p>CRUD FullStack</p>
+              </div>
+
+              <div class="proyecto">
+                <img src="../img/proyects/pro4.png" alt="" class="img-proyect">
+                <p>WebSite</p>
+              </div>
+
+              <div class="proyecto">
+                <img src="../img/proyects/pro5.png" alt="" class="img-proyect">
+                <p>Web con animaciones</p>
+              </div>
+              
+              <div class="proyecto">
+                <img src="../img/proyects/pro6.png" alt="" class="img-proyect">
+                <p>Calculadora</p>
+              </div>
+            </div>
+          </section>
+
     </main>
 
     <footer>
-
+      <h3>&copy;Joel Restrepo 2025</h3>
     </footer>
-        
-</body>
+    <script src="../scipt.js"></script>
+  </body>
 </html>

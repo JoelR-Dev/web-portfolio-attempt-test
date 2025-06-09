@@ -1,40 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Final Challenge J.R</title>
-    <link rel="stylesheet" href="../styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <header>
-        <div class="text-logo">
-            <img src="../img/logo.png" alt="">
+      <div class="text-logo">
+        <img src="../img/logo.png" alt="" />
 
-            <div class="text-hd">
-                <h2>Joel Restrepo</h2>
-                <h4>Web Designer & Developer</h4>
-            </div>
+        <div class="text-hd">
+          <h2>Joel Restrepo</h2>
+          <h4>Web Designer & Developer</h4>
         </div>
-    
-    
-        <nav>
-            <ul>
-                <li ><a href="../index.html">Home</a></li>
-                <li><a href="./projects.html">Projects</a></li>
-                <li class="foc"><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+      </div>
+
+      <nav>
+        <div id="menu" class="menu">
+          <div class="rows"></div>
+          <div class="rows"></div>
+          <div class="rows"></div>
+        </div>
+
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li class="foc"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
+    <ul class="responsive-list">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="./projects.html">Projects</a></li>
+      <li class="foc"><a href="#">Contact</a></li>
+    </ul>
 
     <main>
-        
+        <section id="contact" class="contact">
+          <h1>Do you need me?</h1>
+        <form>
+          <input type="text" placeholder="Your name" required />
+          <input type="text" placeholder="Phone" required />
+          <input type="email" placeholder="Email" required />
+          <input type="submit" value="Send Message" />
+        </form>
+
+        <h2>Software Development</h2>
+        <div class="contacts">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-solid fa-envelope"></i>
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+      </section>
     </main>
 
     <footer>
-
+      <h3>&copy;2025</h3>
     </footer>
-        
-</body>
+    <script src="../scipt.js"></script>
+  </body>
 </html>
